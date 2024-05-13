@@ -1,8 +1,11 @@
-import gradle.kotlin.dsl.accessors._70a8c88598114635b3591220565bda80.java
-import gradle.kotlin.dsl.accessors._70a8c88598114635b3591220565bda80.test
-
 plugins {
     id("application")
+    id("my-java-base")
+}
+
+val myBuildGroup = "my project build"
+tasks.named("run") {
+    group = myBuildGroup
 }
 
 java {
