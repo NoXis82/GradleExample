@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id("checkstyle")
 }
 
 val myBuildGroup = "my project build"
@@ -17,6 +18,12 @@ tasks.check {
     description = "Runs checks (including tests)."
 }
 
+tasks.register("qualityCheck") {
+    group = myBuildGroup
+    description = "Runs checks (excluding tests)."
+    dependsOn(tasks.classes, tasks.checkstyleMain)
+    dependsOn(tasks.testClasses, tasks.checkstyleTest)
+}
 
 
 java {
@@ -30,4 +37,6 @@ tasks.test {
 
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.3")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }

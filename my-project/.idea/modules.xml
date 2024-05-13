@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1048648020/my-build-logic.java-plugins.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1048648020/my-build-logic.java-plugins.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/business-logic/my-project.business-logic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/business-logic/my-project.business-logic.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business-logic/my-project.business-logic.test.iml" filepath="$PROJECT_DIR$/.idea/modules/business-logic/my-project.business-logic.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-module/my-project.data-module.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data-module/my-project.data-module.main.iml" />
     </modules>
   </component>
 </project>
