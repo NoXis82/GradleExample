@@ -17,7 +17,7 @@ dependencyResolutionManagement {
 
 //include("app")
 //include("business-logic")
-//include("data-model")
+//include("data-module")
 rootDir.listFiles()?.filter {
     it.isDirectory && !it.isHidden
 }?.forEach {

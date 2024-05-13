@@ -10,6 +10,7 @@
               <build path="$PROJECT_DIR$/../my-build-logic" name="my-build-logic">
                 <projects>
                   <project path="$PROJECT_DIR$/../my-build-logic" />
+                  <project path="$PROJECT_DIR$/../my-build-logic/java-plugins" />
                 </projects>
               </build>
               <build path="$PROJECT_DIR$/../my-other-project" name="my-other-project">
@@ -25,6 +26,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../my-build-logic" />
+            <option value="$PROJECT_DIR$/../my-build-logic/java-plugins" />
             <option value="$PROJECT_DIR$/../my-other-project" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />

@@ -1,10 +1,7 @@
 plugins {
-    id("java-library")
+    id("my-java-library")
 }
 
-java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(11))
-}
 
 dependencies {
     implementation(project(":data-module"))
