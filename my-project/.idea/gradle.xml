@@ -32,7 +32,6 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/business-logic" />
             <option value="$PROJECT_DIR$/data-module" />
-            <option value="$PROJECT_DIR$/gradle" />
           </set>
         </option>
       </GradleProjectSettings>

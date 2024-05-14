@@ -15,11 +15,11 @@ dependencyResolutionManagement {
     includeBuild("../my-other-project")
 }
 
-//include("app")
-//include("business-logic")
-//include("data-module")
-rootDir.listFiles()?.filter {
-    it.isDirectory && !it.isHidden
-}?.forEach {
-  include(it.name)
-}
+include("app")
+include("business-logic")
+include("data-module")
+//rootDir.listFiles()?.filter {
+//    it.isDirectory && !it.isHidden
+//}?.forEach {
+//  include(it.name)
+//}
