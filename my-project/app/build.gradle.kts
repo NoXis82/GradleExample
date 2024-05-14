@@ -7,6 +7,12 @@ plugins {
 //application {
 //    mainClass.set("MyApplication")
 //}
+//tasks.generateStartScript {
+//    mainClass.set("myproject.MyApplication")
+//}
+myApp {
+    mainClass.set("myproject.MyApplication")
+}
 
 dependencies {
     implementation(project(":business-logic"))
