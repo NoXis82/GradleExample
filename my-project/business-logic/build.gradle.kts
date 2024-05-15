@@ -1,3 +1,4 @@
+
 plugins {
     id("my-java-library")
 }
@@ -10,4 +11,5 @@ dependencies {
     implementation("org.example.my-app:shared-utils")
 
     compileOnlyApi("com.google.errorprone:error_prone_annotations")
+    testImplementation("org.junit.jupiter:junit-jupiter-api")
 }
