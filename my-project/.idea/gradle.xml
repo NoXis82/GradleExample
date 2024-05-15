@@ -16,6 +16,7 @@
               <build path="$PROJECT_DIR$/../my-other-project" name="my-other-project">
                 <projects>
                   <project path="$PROJECT_DIR$/../my-other-project" />
+                  <project path="$PROJECT_DIR$/../my-other-project/shared-utils" />
                 </projects>
               </build>
             </builds>
@@ -28,6 +29,7 @@
             <option value="$PROJECT_DIR$/../my-build-logic" />
             <option value="$PROJECT_DIR$/../my-build-logic/java-plugins" />
             <option value="$PROJECT_DIR$/../my-other-project" />
+            <option value="$PROJECT_DIR$/../my-other-project/shared-utils" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/business-logic" />
